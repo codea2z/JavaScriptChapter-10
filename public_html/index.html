@@ -9,12 +9,14 @@ and open the template in the editor.
         <title>JavaScript - Chapter 10</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script type="text/javascript" src="change.js"></script>
+        <script type="text/javascript" src="validate.js"></script>
     </head>
     <body>
-        <form id="lang" action="echo.pl" method="POST">
-            <input id="txt" type="text" size="30" value="JavaScript">
-            <input type="reset">
+        <form id="contact" action="echo.pl" method="POST">
+            Name: <input type="text" size="30" name="Name">
+            <br>
+            Email: <input type="text" size="30" name="Email">
+            <input type="submit">
         </form>        
         <div id="panel"></div>
     </body>
